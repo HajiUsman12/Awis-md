@@ -30,8 +30,9 @@ module.exports = {
     OWNER_REACT: process.env.OWNER_REACT || "flase",
     BOT_NAME: process.env.BOT_NAME || "HASAN ᴍᴅ",
     ANTI_VV: process.env.ANTI_VV || "true",
-    ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", // change it to 'same' if you want to resend deleted message in same chat
+    ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", // change it to 'same' if you want to resend deleted message in same chat
     OWNER_NAME: process.env.OWNER_NAME || "HASAN", //replace with your name 
+    ANTI_DELETE: process.env.ANTI_DELETE || "true",
     OWNER_NUMBER: process.env.OWNER_NUMBER || "923190217441",// add your bot owner number
     DEV: process.env.DEV || "923190217441", //replace with your whatsapp number
     AUTOLIKESTATUS: process.env.AUTOLIKESTATUS || "true",
