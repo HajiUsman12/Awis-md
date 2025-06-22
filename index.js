@@ -42,8 +42,17 @@ const {
   const Crypto = require('crypto')
   const path = require('path')
   const prefix = config.PREFIX
+  // index.js
+  const express = require("express");
+  const app = express();
+
+  app.get("/", (req, res) => res.send("Bot is Running ✅"));
+
+  app.listen(3000, () => console.log("Uptime server active on port 3000"));
+
+// Baaki WhatsApp ya Telegram bot ka code yahin neeche likh
   
-  const ownerNumber = ['923182832887']
+  const ownerNumber = ['923190217441']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
